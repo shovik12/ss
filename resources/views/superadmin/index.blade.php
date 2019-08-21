@@ -40,14 +40,14 @@
             <a class="nav-link" href="{{route('superadmin.profile')}}">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{route('superadmin.create')}}">Create Support Admin</a>
+            <a class="nav-link" href="{{route('superadmin.create')}}">Create Member</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('searchuser.superadmin')}}">Search</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="{{route('superadmin.event')}}">Event</a>
+            <a class="nav-link" href="{{route('superadmin.event')}}">Blog</a>
           </li>
          <li class="nav-item">
            <a class="nav-link" href="{{route('superadmin.report')}}">Report</a>
@@ -75,9 +75,8 @@
 
        <h1 class="my-4">Portal </h1>
         <div class="list-group">
-          <a href="{{route('superadmin.active')}}" class="list-group-item">Active User</a>
-          <a href="{{route('superadmin.Fund')}}" class="list-group-item">Fund Report</a>
-          <a href="{{route('superadmin.supportadminshow')}}" class="list-group-item">Support Admin</a>
+          <a href="{{route('superadmin.active')}}" class="list-group-item">Active member</a>
+          
         </div>
 
       </div>
@@ -88,9 +87,7 @@
 <br><br><br>
 
 <!-- crdit system -->
-  <div class="container">
-    <h4 align="center">Total Credit:{{$new}}  </h4> 
-  </div>
+ 
 
 
   </body>
