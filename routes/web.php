@@ -142,7 +142,7 @@ Route::group(['middleware'=>['sess']], function(){
 
 Route::get('/logout', 'logoutController@index');
 
-//Route::resource('accounts', 'AccountController');
+
 
 
 
